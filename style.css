@@ -1,0 +1,46 @@
+body {
+	background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.col-md-6 {
+	background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+	margin-top: 150px !important;
+	border: 1px solid white;
+	padding: 20px;
+	box-shadow: 5px 15px #fef9d7;
+	border-radius: 20px;
+}
+
+.form-control {
+	margin: 10px auto;
+	border-radius: 10px !important;
+	border: 5px solid white !important;
+}
+
+input {
+	background-color: #f8f9fa !important;
+}
+
+button {
+	border: 3px solid black !important;
+	float: right;
+}
+
+h1 {
+	padding: 20px !important;
+}
+
+small {
+	text-align: start !important;
+	margin: 5px;
+	color: red;
+	font-weight: bold;
+}
+
+.success {
+	border: 3px solid green !important;
+}
+
+.error {
+	border: 3px solid red !important;
+}
