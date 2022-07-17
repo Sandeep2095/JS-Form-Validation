@@ -7,7 +7,7 @@ function validate() {
 	checkusername(username);
 	checkemail(email);
 	checkpassword(password);
-	checkcpassword(cpassword);
+	checkcpassword(cpassword, password);
 }
 
 // username field function
@@ -54,7 +54,7 @@ function checkpassword(password) {
 
 // confirm password field function
 function checkcpassword(cpassword, password) {
-	if (cpassword == password) {
+	if (cpassword == password && password!='') {
 		document.getElementById('cpassword').classList.add('success');
 		document.getElementById('cpassword').classList.replace('error', 'success');
 		document.getElementById('cpassword_errors').innerHTML = '';
